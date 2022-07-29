@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import {TaskListComponents} from './components/containers/task_list.jsx';
+// import Archivoa from './componentes practicas/archivoa.JSX';
+//import Greeting from './pure/greeting';
+//import GreetingF from './pure/greetingF';
+
+
 
 function App() {
   return (
@@ -7,7 +13,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* <Greeting  name={"Juan"}/> desde un componente de clase */}
+          {/* <GreetingF name = {"Juan"} /> */}          
+          <TaskListComponents/>
+          {/* <Archivoa/> */}
         </p>
         <a
           className="App-link"
