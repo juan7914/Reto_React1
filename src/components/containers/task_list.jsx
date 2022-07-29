@@ -1,7 +1,7 @@
 import React from 'react';
 import { LEVELS } from '../models/levels.enum';
-import { Task } from '../models/task.class';
-import { TaskComponents } from '../pure/task';
+import  Task  from '../models/task.class';
+import TaskComponents  from '../pure/task';
 
 
 

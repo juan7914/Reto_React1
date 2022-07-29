@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {TaskListComponents} from './components/containers/task_list.jsx';
-// import Archivoa from './componentes practicas/archivoa.JSX';
+//import TaskListComponents from './components/containers/task_list.jsx';
+ import Archivoa from './componentes practicas/archivoa.jsx';
 //import Greeting from './pure/greeting';
 //import GreetingF from './pure/greetingF';
 
@@ -15,8 +15,8 @@ function App() {
         <p>
           {/* <Greeting  name={"Juan"}/> desde un componente de clase */}
           {/* <GreetingF name = {"Juan"} /> */}          
-          <TaskListComponents/>
-          {/* <Archivoa/> */}
+          {/* <TaskListComponents/> */}
+          <Archivoa/>
         </p>
         <a
           className="App-link"

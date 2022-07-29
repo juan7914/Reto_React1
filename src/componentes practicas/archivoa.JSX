@@ -1,40 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import Archivob from './archivob.JSX';
+import Archivob from './archivob.jsx';
+import archivoc from './modeloPrueba/archivoc.jsx';
 
-export const contacto = {
-    nombre : "",
-    apellido : "",
-    email : "",
-    conectado : false,
-};
 
-class Archivoa extends Component {
-   
-    constructor({nombre , apellido , email, conectado}){
-        super({nombre , apellido , email, conectado})
-       this.nombre = nombre;
-       this.apellido = apellido;
-       this.email = email;
-       this.conectado = conectado;        
-    }
+function Archivoa () {
 
-    render() {       
+    const defaulCliente = new archivoc ( "Carlos", "Murillo", "carlos@gmail.com", false);
+    
+          
         return (
             <div>                
-                <Archivob nombre = {this.nombre} apellido = {this.apellido}  email ={this.email} conectado = {this.conectado} />
+                <Archivob cliente = {defaulCliente} />
             </div>
         );
-    }
+    
 }
 
-
-Archivoa.propTypes = {
-nombre : PropTypes.string,
-apellido : PropTypes.string,
-email : PropTypes.string,
-conectado : PropTypes.bool
+Archivob.propTypes = {
+    nombre : PropTypes.string,
+    apellido : PropTypes.string,
+    email : PropTypes.string,
+    conectado : PropTypes.bool
 };
+
 
 
 export default Archivoa;

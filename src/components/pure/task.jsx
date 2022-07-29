@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Task } from '../models/task.class'
+import  Task  from '../models/task.class.js';
+
 
 function TaskComponents({ task }) {
   return (
