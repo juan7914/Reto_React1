@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 import Contact from '../models/contact.class';
 
 
-function Contactcomponents ({Contact}) {
+function Contactcomponents ({ Contact }) {
 
     const [connected , setConnected] = useState(false);
     const conectado = ()=>{
-        setConnected(!connected ? true : false);
+        setConnected(connected);
     }
   return (
     <div>
@@ -16,7 +16,7 @@ function Contactcomponents ({Contact}) {
         <h2>Apellido : {Contact.apellido}</h2>
         <h2>email : {Contact.email}</h2>
         <h2>connected : {Contact.connected ? 'Contacto En Línea' : "Contacto No Disponible"}</h2>
-        <button onClick={conectado}>{conectado ? "conectado" : "desconectado"}</button>
+        <button onClick={conectado}>conectar</button>
     </div>
   )
 }

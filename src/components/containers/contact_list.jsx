@@ -4,12 +4,12 @@ import Contactcomponents from '../pure/contact';
 import Contact from '../models/contact.class';
 
 
-function ContactList(props) {
+function ContactList() {
     const conexionDefault = new Contact("CARLOS" , "Murillo" , "carlos@gmail.com", false);
   return (
     <div>
         <h1>Conexcion del Cliente</h1>
-        <Contactcomponents Contact={conexionDefault}></Contactcomponents>
+        <Contactcomponents concat = {conexionDefault}></Contactcomponents>
     </div>
   )
 }
