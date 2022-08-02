@@ -11,4 +11,5 @@
         this.connected = connected
     }
 };
+
 export default Contact;

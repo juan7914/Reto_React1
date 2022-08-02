@@ -16,7 +16,7 @@ function App() {
           {/* <Greeting  name={"Juan"}/> desde un componente de clase */}
           {/* <GreetingF name = {"Juan"} /> */}          
           {/* <TaskListComponents/> */}          
-          <ContactList></ContactList>          
+          <ContactList/>         
         </p>
         <a
           className="App-link"
