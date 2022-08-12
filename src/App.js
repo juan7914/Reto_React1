@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import ContactList from './components/containers/contact_list.jsx'
+//import ContactList from './components/containers/contact_list.jsx'
+import GreetingStyle from './components/pure/GreetingStyle';
 //import TaskListComponents from './components/containers/task_list.jsx'; 
 //import Greeting from './pure/greeting';
 //import GreetingF from './pure/greetingF';
@@ -16,7 +17,8 @@ function App() {
           {/* <Greeting  name={"Juan"}/> desde un componente de clase */}
           {/* <GreetingF name = {"Juan"} /> */}          
           {/* <TaskListComponents/> */}          
-          <ContactList/>         
+          {/* <ContactList/>          */}
+          <GreetingStyle name = 'Juanito'></GreetingStyle>
         </p>
         <a
           className="App-link"

@@ -2,7 +2,7 @@
     nombre = "";
     apellido = "";
     email = "";
-    connected = false
+    connected = true
 
     constructor({nombre , apellido , email , connected}){
         this.nombre = nombre;

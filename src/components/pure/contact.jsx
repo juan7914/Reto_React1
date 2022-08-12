@@ -9,10 +9,10 @@ function Contactcomponents ( props ) {
     const [connec , setConnec] = useState(props.connected);
     //NO ME FUNCIONA EL CAMBIO DE ESTADO
     const conectado = ()=>{
-        if(!connec){
-            setConnec(connec);
+        if(connec){
+            setConnec(false);
         }else{
-        setConnec(!connec);
+            setConnec(true);
         }
     }
   return (
@@ -20,7 +20,7 @@ function Contactcomponents ( props ) {
         <h2>Nombre : { props.nombre }</h2>
         <h2>Apellido : { props.apellido }</h2>
         <h2>email : { props.email }</h2>
-        <h2>connected : { props.connected  ? 'Contacto En Línea' : "Contacto No Disponible"}</h2>
+        <h2>connected : { props.connected  ? "Contacto En Línea" : "Contacto No Disponible" }</h2>
         <button onClick={conectado}>{connec ? "conectado" : "desconectado"}</button>
     </div>
   )
