@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './components/pure/Clock';
 //import ContactList from './components/containers/contact_list.jsx'
-import GreetingStyle from './components/pure/GreetingStyle';
+//import GreetingStyle from './components/pure/GreetingStyle';
 //import TaskListComponents from './components/containers/task_list.jsx'; 
 //import Greeting from './pure/greeting';
 //import GreetingF from './pure/greetingF';
@@ -18,7 +19,8 @@ function App() {
           {/* <GreetingF name = {"Juan"} /> */}          
           {/* <TaskListComponents/> */}          
           {/* <ContactList/>          */}
-          <GreetingStyle name = 'Juanito'></GreetingStyle>
+          {/* <GreetingStyle name = 'Juanito'></GreetingStyle> */}
+          <Clock></Clock>
         </p>
         <a
           className="App-link"
