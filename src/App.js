@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Clock from './components/pure/Clock';
+//import Clock from './components/pure/Clock';
+import Father from './components/containers/Father';
 //import ContactList from './components/containers/contact_list.jsx'
 //import GreetingStyle from './components/pure/GreetingStyle';
 //import TaskListComponents from './components/containers/task_list.jsx'; 
@@ -20,7 +21,8 @@ function App() {
           {/* <TaskListComponents/> */}          
           {/* <ContactList/>          */}
           {/* <GreetingStyle name = 'Juanito'></GreetingStyle> */}
-          <Clock></Clock>
+          {/* <Clock></Clock> */}
+          <Father></Father>
         </p>
         <a
           className="App-link"
