@@ -17,7 +17,7 @@ const Clock = () => {
     useEffect(() => {
        let timerId = setInterval(()=>{
         onChangeClock();
-       }, 1000)
+       }, 2000)
         return () => {
            clearInterval(timerId)
         };

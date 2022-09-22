@@ -49,12 +49,14 @@ const Child = ({ name , send , update}) => {
 
                 <input 
                 placeholder='escriba'
-                onChange={(e) => console.log('el input esta recibiendo texto asi:', e.target.value)}
                 ref={myName}
+                onChange={(e) => console.log('el input esta recibiendo texto asi:', e.target.value)}
+                
                 />
+                <button type="submit">updateName</button>
                 </form>
 
-                <button type="submit">updateName</button>
+                
 
             </div>
 

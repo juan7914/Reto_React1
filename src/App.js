@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-//import Clock from './components/pure/Clock';
-import Father from './components/containers/Father';
+// import Clock from './components/pure/Clock';
+// import Father from './components/containers/Father';
+// import Cuadrado from './components/containers/Cuadrado';
 //import ContactList from './components/containers/contact_list.jsx'
 //import GreetingStyle from './components/pure/GreetingStyle';
 //import TaskListComponents from './components/containers/task_list.jsx'; 
 //import Greeting from './pure/greeting';
 //import GreetingF from './pure/greetingF';
+import Fetchexample from '../src/components/pure/Fetchexample'
 
 
 
@@ -22,7 +24,9 @@ function App() {
           {/* <ContactList/>          */}
           {/* <GreetingStyle name = 'Juanito'></GreetingStyle> */}
           {/* <Clock></Clock> */}
-          <Father></Father>
+          {/* <Father></Father> */}
+          {/* <Cuadrado></Cuadrado> */}
+          <Fetchexample></Fetchexample>
         </p>
         <a
           className="App-link"
